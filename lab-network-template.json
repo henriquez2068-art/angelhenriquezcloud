@@ -1,0 +1,148 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "coreVnetName": { "type": "string", "minLength": 2 },
+    "manufacturingVnetName": { "type": "string", "minLength": 2 },
+    "researchVnetName": { "type": "string", "minLength": 2 },
+
+    "coreLocation": { "type": "string", "minLength": 2 },
+    "manufacturingLocation": { "type": "string", "minLength": 2 },
+    "researchLocation": { "type": "string", "minLength": 2 },
+
+    "coreAddressSpace": { "type": "string", "minLength": 9 },
+    "manufacturingAddressSpace": { "type": "string", "minLength": 9 },
+    "researchAddressSpace": { "type": "string", "minLength": 9 },
+
+    "coreGatewaySubnetName": { "type": "string", "minLength": 2 },
+    "coreGatewaySubnetPrefix": { "type": "string", "minLength": 9 },
+    "coreSharedServicesSubnetName": { "type": "string", "minLength": 2 },
+    "coreSharedServicesSubnetPrefix": { "type": "string", "minLength": 9 },
+    "coreDatabaseSubnetName": { "type": "string", "minLength": 2 },
+    "coreDatabaseSubnetPrefix": { "type": "string", "minLength": 9 },
+    "corePublicWebSubnetName": { "type": "string", "minLength": 2 },
+    "corePublicWebSubnetPrefix": { "type": "string", "minLength": 9 },
+
+    "manufacturingSystemSubnetName": { "type": "string", "minLength": 2 },
+    "manufacturingSystemSubnetPrefix": { "type": "string", "minLength": 9 },
+    "manufacturingSensorSubnet1Name": { "type": "string", "minLength": 2 },
+    "manufacturingSensorSubnet1Prefix": { "type": "string", "minLength": 9 },
+    "manufacturingSensorSubnet2Name": { "type": "string", "minLength": 2 },
+    "manufacturingSensorSubnet2Prefix": { "type": "string", "minLength": 9 },
+    "manufacturingSensorSubnet3Name": { "type": "string", "minLength": 2 },
+    "manufacturingSensorSubnet3Prefix": { "type": "string", "minLength": 9 },
+
+    "researchSystemSubnetName": { "type": "string", "minLength": 2 },
+    "researchSystemSubnetPrefix": { "type": "string", "minLength": 9 },
+
+    "tags": { "type": "object" }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Network/virtualNetworks",
+      "apiVersion": "2025-05-01",
+      "name": "[parameters('coreVnetName')]",
+      "location": "[parameters('coreLocation')]",
+      "tags": "[parameters('tags')]",
+      "properties": {
+        "addressSpace": {
+          "addressPrefixes": [
+            "[parameters('coreAddressSpace')]"
+          ]
+        },
+        "subnets": [
+          {
+            "name": "[parameters('coreGatewaySubnetName')]",
+            "properties": { "addressPrefix": "[parameters('coreGatewaySubnetPrefix')]" }
+          },
+          {
+            "name": "[parameters('coreSharedServicesSubnetName')]",
+            "properties": { "addressPrefix": "[parameters('coreSharedServicesSubnetPrefix')]" }
+          },
+          {
+            "name": "[parameters('coreDatabaseSubnetName')]",
+            "properties": { "addressPrefix": "[parameters('coreDatabaseSubnetPrefix')]" }
+          },
+          {
+            "name": "[parameters('corePublicWebSubnetName')]",
+            "properties": { "addressPrefix": "[parameters('corePublicWebSubnetPrefix')]" }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Microsoft.Network/virtualNetworks",
+      "apiVersion": "2025-05-01",
+      "name": "[parameters('manufacturingVnetName')]",
+      "location": "[parameters('manufacturingLocation')]",
+      "tags": "[parameters('tags')]",
+      "properties": {
+        "addressSpace": {
+          "addressPrefixes": [
+            "[parameters('manufacturingAddressSpace')]"
+          ]
+        },
+        "subnets": [
+          {
+            "name": "[parameters('manufacturingSystemSubnetName')]",
+            "properties": { "addressPrefix": "[parameters('manufacturingSystemSubnetPrefix')]" }
+          },
+          {
+            "name": "[parameters('manufacturingSensorSubnet1Name')]",
+            "properties": { "addressPrefix": "[parameters('manufacturingSensorSubnet1Prefix')]" }
+          },
+          {
+            "name": "[parameters('manufacturingSensorSubnet2Name')]",
+            "properties": { "addressPrefix": "[parameters('manufacturingSensorSubnet2Prefix')]" }
+          },
+          {
+            "name": "[parameters('manufacturingSensorSubnet3Name')]",
+            "properties": { "addressPrefix": "[parameters('manufacturingSensorSubnet3Prefix')]" }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Microsoft.Network/virtualNetworks",
+      "apiVersion": "2025-05-01",
+      "name": "[parameters('researchVnetName')]",
+      "location": "[parameters('researchLocation')]",
+      "tags": "[parameters('tags')]",
+      "properties": {
+        "addressSpace": {
+          "addressPrefixes": [
+            "[parameters('researchAddressSpace')]"
+          ]
+        },
+        "subnets": [
+          {
+            "name": "[parameters('researchSystemSubnetName')]",
+            "properties": { "addressPrefix": "[parameters('researchSystemSubnetPrefix')]" }
+          }
+        ]
+      }
+    }
+  ],
+  "outputs": {
+    "coreVnetName": {
+      "type": "string",
+      "value": "[parameters('coreVnetName')]"
+    },
+    "coreDatabaseSubnetName": {
+      "type": "string",
+      "value": "[parameters('coreDatabaseSubnetName')]"
+    },
+    "coreDatabaseSubnetResourceId": {
+      "type": "string",
+      "value": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('coreVnetName'), parameters('coreDatabaseSubnetName'))]"
+    },
+    "manufacturingVnetName": {
+      "type": "string",
+      "value": "[parameters('manufacturingVnetName')]"
+    },
+    "researchVnetName": {
+      "type": "string",
+      "value": "[parameters('researchVnetName')]"
+    }
+  }
+}

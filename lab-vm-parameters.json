@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": { "value": "eastus" },
+    "existingVirtualNetworkName": { "value": "CoreServicesVnet" },
+    "existingSubnetName": { "value": "DatabaseSubnet" },
+
+    "vmName1": { "value": "testvm1" },
+    "nicName1": { "value": "testvm1-nic" },
+    "nsgName1": { "value": "testvm1-nsg" },
+    "publicIpName1": { "value": "testvm1-pip" },
+
+    "vmName2": { "value": "testvm2" },
+    "nicName2": { "value": "testvm2-nic" },
+    "nsgName2": { "value": "testvm2-nsg" },
+    "publicIpName2": { "value": "testvm2-pip" },
+
+    "vmSize": { "value": "Standard_DS1_v2" },
+    "adminUsername": { "value": "TestUser" },
+    "windowsSku": { "value": "2019-Datacenter" },
+    "osDiskStorageAccountType": { "value": "StandardSSD_LRS" },
+    "rdpAllowedSourceAddressPrefix": { "value": "*" },
+    "tags": {
+      "value": {
+        "Project": "ARM-Lab-Integral",
+        "Environment": "Lab",
+        "Owner": "IngenieroCalderon"
+      }
+    }
+  }
+}
