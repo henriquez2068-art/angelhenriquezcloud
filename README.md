@@ -19,7 +19,7 @@ Actualmente preparándome para la certificación **AZ-104: Microsoft Azure Admin
 En este portfolio encontrarás laboratorios, scripts y despliegues automatizados que demuestran mis habilidades prácticas.
 
 📫 **Contáctame**:  
-[www.linkedin.com/in/angel-henriquez-ing) • [Twitter](https://twitter.com/tuusuario) • [Correo](mailto:tuemail@example.com)
+[www.linkedin.com/in/angel-henriquez-ing) • [henriquez2068@hotmail.com](mailto:tuemail@example.com)
 
 ---
 
