@@ -29,7 +29,7 @@ Actualmente enfocado en automatización, modernización de infraestructuras, ado
 | 🏅 | Certificación | Emisor |
 |----|---------------|--------|
 | 🏅 | **Veeam Certified Engineer (VMCE) 2025** | Veeam Software |
-| 🏅 | **Microsoft Certified: Windows Server Hybrid Administrator Associate** | AZ-800 / AZ-801 |
+| 🏅 | **Microsoft Certified: Windows Server Hybrid Administrator Associate** | Microsoft |
 | 🏅 | **VMware Certified Professional - Data Center Virtualization (VCP-DCV)** | VMware |
 
 ---
