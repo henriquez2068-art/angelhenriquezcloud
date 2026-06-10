@@ -26,25 +26,11 @@ Actualmente enfocado en automatización, modernización de infraestructuras, ado
 
 ## 🎓 Certificaciones
 
-<table>
-<tr>
-<td>🏅</td>
-<td><b>Veeam Certified Engineer (VMCE) 2025</b></td>
-<td>Veeam Software</td>
-</tr>
-
-<tr>
-<td>🏅</td>
-<td><b>Microsoft Certified: Windows Server Hybrid Administrator Associate</b></td>
-<td>AZ-800 / AZ-801</td>
-</tr>
-
-<tr>
-<td>🏅</td>
-<td><b>VMware Certified Professional - Data Center Virtualization (VCP-DCV)</b></td>
-<td>VMware</td>
-</tr>
-</table>
+| 🏅 | Certificación | Emisor |
+|----|---------------|--------|
+| 🏅 | **Veeam Certified Engineer (VMCE) 2025** | Veeam Software |
+| 🏅 | **Microsoft Certified: Windows Server Hybrid Administrator Associate** | AZ-800 / AZ-801 |
+| 🏅 | **VMware Certified Professional - Data Center Virtualization (VCP-DCV)** | VMware |
 
 ---
 
@@ -52,79 +38,65 @@ Actualmente enfocado en automatización, modernización de infraestructuras, ado
 
 ### ☁️ Cloud & Infraestructura Híbrida
 
-<ul>
-  <li>Microsoft Azure</li>
-  <li>Microsoft 365</li>
-  <li>Azure Virtual Machines</li>
-  <li>Azure Storage</li>
-  <li>Azure Networking</li>
-  <li>Azure Monitor</li>
-  <li>Azure Backup</li>
-  <li>Azure Site Recovery</li>
-  <li>Microsoft Entra ID</li>
-</ul>
+- Microsoft Azure
+- Microsoft 365
+- Azure Virtual Machines
+- Azure Storage
+- Azure Networking
+- Azure Monitor
+- Azure Backup
+- Azure Site Recovery
+- Microsoft Entra ID
 
 ### 🖥️ Sistemas Microsoft
 
-<ul>
-  <li>Windows Server 2016 / 2019 / 2022</li>
-  <li>Active Directory</li>
-  <li>DNS</li>
-  <li>DHCP</li>
-  <li>Group Policy (GPO)</li>
-  <li>File Server</li>
-  <li>Remote Desktop Services</li>
-</ul>
+- Windows Server 2016 / 2019 / 2022
+- Active Directory
+- DNS
+- DHCP
+- Group Policy (GPO)
+- File Server
+- Remote Desktop Services
 
 ### 🏢 Virtualización y Datacenter
 
-<ul>
-  <li>VMware vSphere</li>
-  <li>VMware ESXi</li>
-  <li>Hyper-V</li>
-  <li>Administración de Datacenter</li>
-  <li>Alta Disponibilidad</li>
-  <li>Continuidad Operativa</li>
-</ul>
+- VMware vSphere
+- VMware ESXi
+- Hyper-V
+- Administración de Datacenter
+- Alta Disponibilidad
+- Continuidad Operativa
 
 ### 💾 Backup & Recovery
 
-<ul>
-  <li>Veeam Backup & Replication</li>
-  <li>Disaster Recovery (DR)</li>
-  <li>Replicación de Servidores</li>
-  <li>Protección de Datos</li>
-</ul>
+- Veeam Backup & Replication
+- Disaster Recovery (DR)
+- Replicación de Servidores
+- Protección de Datos
 
 ### 🔐 Seguridad
 
-<ul>
-  <li>RBAC</li>
-  <li>Microsoft Defender</li>
-  <li>Conditional Access</li>
-  <li>Azure Key Vault</li>
-  <li>Hardening de Servidores</li>
-</ul>
+- RBAC
+- Microsoft Defender
+- Conditional Access
+- Azure Key Vault
+- Hardening de Servidores
 
 ### ⚙️ Automatización
 
-<ul>
-  <li>PowerShell</li>
-  <li>Azure CLI</li>
-  <li>ARM Templates</li>
-  <li>Bicep</li>
-  <li>Terraform</li>
-</ul>
+- PowerShell
+- Azure CLI
+- ARM Templates
+- Bicep
+- Terraform
 
 ### 📊 Monitoreo
 
-<ul>
-  <li>Azure Monitor</li>
-  <li>Log Analytics</li>
-  <li>KQL</li>
-  <li>Performance Monitor</li>
-  <li>Dashboards y Alertas</li>
-</ul>
+- Azure Monitor
+- Log Analytics
+- KQL
+- Performance Monitor
+- Dashboards y Alertas
 
 ---
 
@@ -133,7 +105,7 @@ Actualmente enfocado en automatización, modernización de infraestructuras, ado
 > Utiliza los repositorios fijados (Pinned Repositories) para destacar tus mejores proyectos.
 
 | Proyecto | Descripción | Tecnologías |
-|----------|-------------|-------------|
+|----------|-------------|--------------|
 | 🧪 LABS-AZ-104 | Laboratorios prácticos orientados a administración Azure | ARM, Bicep, Azure CLI, PowerShell |
 | 🌐 Azure Hub-Spoke Network | Arquitectura de red empresarial segura | Azure Firewall, VPN Gateway, NSG |
 | 🏢 Hybrid Infrastructure | Integración de Active Directory con Azure | Entra ID, Azure AD Connect |
@@ -143,39 +115,45 @@ Actualmente enfocado en automatización, modernización de infraestructuras, ado
 
 ---
 
+## 📚 Manuales y Tutoriales
+
+En esta sección iré subiendo guías paso a paso, manuales técnicos y tutoriales sobre las tecnologías que domino. Todo el material está en formato Markdown o PDF y se encuentra en mi repositorio de **Manuales** (o dentro de este mismo perfil en la carpeta `/manuales`).
+
+### 📂 ¿Cómo acceder?
+
+1. **Repositorio exclusivo para manuales**:  
+   👉 [Manuales y Tutoriales de Ángel](https://github.com/henriquez2068-art/manuales) (crea este repositorio si aún no existe)
+
+2. **Carpeta dentro del perfil**:  
+   Si prefieres mantenerlo aquí, crea una carpeta `/manuales` en este mismo repositorio y sube los archivos.
+
+### 📖 Contenido actual (ejemplo)
+
+| Manual/Tutorial | Tecnología | Formato |
+|----------------|------------|---------|
+| [Administración Básica de Azure CLI](https://github.com/henriquez2068-art/manuales/blob/main/azure-cli-basico.md) | Azure CLI | Markdown |
+| [Guía de Backup con Veeam](https://github.com/henriquez2068-art/manuales/blob/main/veeam-backup-guide.pdf) | Veeam | PDF |
+| [PowerShell para Administradores de Windows Server](https://github.com/henriquez2068-art/manuales/blob/main/powershell-admin.md) | PowerShell | Markdown |
+| [Despliegue de VM en Azure con Bicep](https://github.com/henriquez2068-art/manuales/blob/main/bicep-vm-deploy.md) | Bicep | Markdown |
+
+> 🔹 **Próximamente**: Más tutoriales sobre VMware vSphere, Terraform, Azure Monitor y Active Directory.
+
+### ✍️ ¿Quieres sugerir un tema?
+
+Abre un **Issue** en mi repositorio de manuales o contáctame directamente por LinkedIn. Estaré encantado de crear contenido que te ayude.
+
+---
+
 ## 💻 Stack Tecnológico
 
-<table>
-<tr>
-<td><b>Cloud</b></td>
-<td>Azure, Microsoft 365, Entra ID</td>
-</tr>
-
-<tr>
-<td><b>Sistemas</b></td>
-<td>Windows Server, Linux</td>
-</tr>
-
-<tr>
-<td><b>Virtualización</b></td>
-<td>VMware vSphere, ESXi, Hyper-V</td>
-</tr>
-
-<tr>
-<td><b>Automatización</b></td>
-<td>PowerShell, Azure CLI, ARM, Bicep, Terraform</td>
-</tr>
-
-<tr>
-<td><b>Monitoreo</b></td>
-<td>Azure Monitor, Log Analytics, KQL</td>
-</tr>
-
-<tr>
-<td><b>Backup</b></td>
-<td>Veeam Backup & Replication</td>
-</tr>
-</table>
+| Área | Tecnologías |
+|------|--------------|
+| **Cloud** | Azure, Microsoft 365, Entra ID |
+| **Sistemas** | Windows Server, Linux |
+| **Virtualización** | VMware vSphere, ESXi, Hyper-V |
+| **Automatización** | PowerShell, Azure CLI, ARM, Bicep, Terraform |
+| **Monitoreo** | Azure Monitor, Log Analytics, KQL |
+| **Backup** | Veeam Backup & Replication |
 
 ---
 
@@ -188,7 +166,7 @@ Continuar creciendo como Infrastructure & Cloud Engineer, participando en proyec
 ## 📫 Contáctame
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/angel-henriquez-ing">
+  <a href="https://www.linkedin.com/in/angel-henriquez-ing" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Angel_Henriquez-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
 
