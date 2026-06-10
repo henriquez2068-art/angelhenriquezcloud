@@ -2,7 +2,7 @@
 <h1 align="center">👋 Hola, soy Ángel Henríquez</h1>
 
 <h3 align="center">
-M365 & Azure Administrator | Hybrid Cloud & Infrastructure Engineer | AZ-800 | AZ-801 | VMware & Veeam
+Infrastructure & Cloud Engineer | Microsoft Azure | Microsoft 365 | VMware VCP-DCV | Veeam VMCE | Windows Server Hybrid Administrator
 </h3>
 
 <p align="center">
@@ -32,11 +32,25 @@ Actualmente enfocado en automatización, modernización de infraestructuras, ado
 
 ## 🎓 Certificaciones
 
-<ul>
-  <li>✅ Microsoft Certified: Azure Administrator Associate (AZ-104)</li>
-  <li>✅ Microsoft Certified: Windows Server Hybrid Administrator Associate (AZ-800)</li>
-  <li>✅ Microsoft Certified: Windows Server Hybrid Administrator Associate (AZ-801)</li>
-</ul>
+<table>
+<tr>
+<td>🏅</td>
+<td><b>Veeam Certified Engineer (VMCE) 2025</b></td>
+<td>Veeam Software</td>
+</tr>
+
+<tr>
+<td>🏅</td>
+<td><b>Microsoft Certified: Windows Server Hybrid Administrator Associate</b></td>
+<td>AZ-800 / AZ-801</td>
+</tr>
+
+<tr>
+<td>🏅</td>
+<td><b>VMware Certified Professional - Data Center Virtualization (VCP-DCV)</b></td>
+<td>VMware</td>
+</tr>
+</table>
 
 ---
 
