@@ -1,7 +1,6 @@
-# angelhenriquezcloud
 <!-- Encabezado con animación / banner -->
 <h1 align="center">👋 Hola, soy Ángel Henríquez</h1>
-<h3 align="center">Azure Cloud Administrator | AZ-104 </h3>
+<h3 align="center">Azure Cloud Administrator | AZ-104</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
@@ -19,7 +18,12 @@ Actualmente preparándome para la certificación **AZ-104: Microsoft Azure Admin
 En este portfolio encontrarás laboratorios, scripts y despliegues automatizados que demuestran mis habilidades prácticas.
 
 📫 **Contáctame**:  
-[www.linkedin.com/in/angel-henriquez-ing](https://linkedin.com/in/tuusuario) • [henriquez2068@hotmail.com](mailto:tuemail@example.com)
+<a href="https://www.linkedin.com/in/angel-henriquez-ing" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:henriquez2068@hotmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
 
 ---
 
