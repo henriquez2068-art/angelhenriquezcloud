@@ -42,10 +42,3 @@ En este portfolio encontrarás laboratorios, scripts y despliegues automatizados
 
 ---
 
-## 🛠️ Habilidades técnicas
-
-```text
-☁️ Azure:            █████████████░░░░░  (70%)  
-📦 Infra as Code:    █████████████████░  (85%)  
-🐚 Scripting:        ████████████░░░░░░  (60%)  
-🐳 Contenedores:     ████████░░░░░░░░░░  (40%)  
