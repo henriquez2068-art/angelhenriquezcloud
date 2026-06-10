@@ -16,12 +16,6 @@ Infrastructure & Cloud Engineer | Microsoft Azure | Microsoft 365 | VMware VCP-D
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=angelhenriquezcloud&show_icons=true&theme=tokyonight" />
-</p>
-
----
-
 ## 🧑‍💻 Sobre mí
 
 Soy un profesional de Infraestructura TI con experiencia en administración de plataformas Microsoft, entornos híbridos, virtualización y servicios cloud. Mi experiencia incluye la gestión de servidores Windows, Active Directory, Microsoft 365, Azure, VMware, Veeam Backup & Replication y operación de infraestructuras críticas de datacenter.
